@@ -7,6 +7,10 @@ article,
 }
 
 article {
+    background: #fff;
+    display: block;
+    width: 99%;
+    margin-left: 0.5%;
     header {
         margin-bottom: 6%;
         text-align: center;
@@ -90,6 +94,7 @@ header {
     border-bottom: 1px solid $border-color;
     display: flex;
     float: left;
+    background: #fff;
 
     a,
     .page-title {

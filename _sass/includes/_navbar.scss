@@ -5,6 +5,9 @@
     display: inline-block;
     float: left;
     width: 100%;
+    color: white;
+    margin-bottom: 10px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12), 0 3px 5px -1px rgba(0, 0, 0, .2);
 
     .separator {
         user-select: none;
@@ -35,6 +38,10 @@
         font-weight: bold;
         font-size: 1em;
         line-height: 1.5;
+        color: white;
+        a{
+            color: white;
+        }
     }
 
     nav {
@@ -48,15 +55,18 @@
             line-height: 1.5;
             float: right;
             text-align: right;
+            color: white;
         }
         li {
             display: inline;
             float: left;
             margin-right: 0.4em;
+            color: white;
         }
         a {
+            color: white;
             &:hover {
-                color: $link-color;
+                color: white;
             }
             &#pull {
                 i {
