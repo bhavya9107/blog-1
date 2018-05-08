@@ -24,7 +24,8 @@
 .tag-anchor {
     margin-bottom: $padding-x-small;
     a {
-        color: #ffffff;
+        
+        color: #343434;
 
         &:hover {
             text-decoration: none;
@@ -38,7 +39,9 @@
     .tag-title {
         margin-top: 0;
         margin-bottom: 0;
+        
         a {
+            
             margin-left: $padding-x-small;
         }
     }
