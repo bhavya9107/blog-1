@@ -35,13 +35,16 @@
 #main {
     background-position: 100% 0, 0 center, center top;
 }
-
+.post-header{
+    width: 100%;
+    text-align: center;
+}
 // Post listing
 .posts {
     margin-top: 16px;
     .post-teaser {
-        @extend %padding-regular;
         width: 95%;
+        padding-top: 0px; 
         display: block;
         background: #fff;
         margin: 6px auto;
@@ -56,10 +59,14 @@
             padding: 0;
             vertical-align: middle;
         }
+        .post-content{
+            @extend %padding-regular;
+            display: block;
+            margin-left: 5px;
+        }
 
         .post-img {
             vertical-align: middle;
-            border-radius: 10px;
             overflow: hidden;
 
             @media (min-width: $break) {

@@ -18,7 +18,7 @@ theme_settings:
      <p>Blog to the posts and tricks by @rishabh3112</p>
   header_text_feature_image: assets/img/Background.jpg
   footer_text: >
-   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+   Copyright @rishabh3112 . Made using <code>Jekyll</code>
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout

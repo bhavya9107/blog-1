@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Hello World
-feature-img: "assets/img/pexels/desk-messy.jpeg"
-thumbnail: "assets/img/thumbnails/desk-messy.jpeg"
+feature-img: "assets/img/pexels/computer.jpeg"
+thumbnail: "assets/img/pexels/computer.jpeg"
 tags: [blog, hello, personal]
 ---
 
