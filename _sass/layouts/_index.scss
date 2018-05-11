@@ -8,11 +8,11 @@
     text-align: center;
     color: $header-desc-text-color;
     background: $header-desc-background-color no-repeat;
-    background-size: $feature-image-size;
+    background-size: calc(cover + cover*0.2);
 
     /* --- Responsive --- */
     @media screen and (max-width: 850px) {
-        background-size: 100% auto;
+        background-size: calc(cover + cover*0.2);
     } 
     
     //For white images
@@ -32,10 +32,24 @@
     }
 }
 
+.banner{
+    padding-top: 100px;
+    height: 300px;
+    @media screen and (max-width: $break) {
+        padding-top: 75px;
+        height: 200px;
+    }
+}
+
 #main {
     background-position: 100% 0, 0 center, center top;
 }
 .post-header{
+    font-family: $font-family-main;
+    width: 100%;
+    text-align: center;
+}
+#post-intro{
     width: 100%;
     text-align: center;
 }
@@ -64,7 +78,13 @@
             display: block;
             margin-left: 5px;
         }
-
+        @media (min-width: 800px){
+            
+                width: 60%;                
+                .post-content{
+                    padding: 20px;
+                }
+        }
         .post-img {
             vertical-align: middle;
             overflow: hidden;

@@ -4,12 +4,13 @@ layout: default
 
 <div class="home">
   {% if site.theme_settings.header_text %}
-  <div id="main" class="call-out"
+  <div id="main" class="call-out banner"
   style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
     {{ site.theme_settings.header_text }}
   </div>
   {% endif %}
   <h1 class="post-header">Latest Posts</h1>
+  <p id="post-intro">Explore my posts and help me to spread my word to the world!! <b>For feedback email or leave a comment on post.</b></p>
   <div class="posts">
     {% for post in paginator.posts %}
     <div class="post-teaser">

@@ -84,7 +84,9 @@
 // To clear things when we float the element inisde nav and ul 
 .clear {
     *zoom: 1;
-
+    span{
+        text-transform: capitalize;
+    }
     &:after {
         clear: both;
     }

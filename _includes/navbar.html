@@ -36,14 +36,18 @@
         {% assign name_page = page.title | append: name_page %}
         {% endif %}
         {% endfor %} 
-        
+        <li>
+                <a class="clear" href="https://rishabh3112.github.io/">
+                    About Me
+                </a>
+        </li>
         <!-- Auto Generation of SPECIAL pages in the navbar -->
         {% for item in site.theme_settings.special_page %}
           {% if item[1].enabled %}
             <li class="separator"> | </li>
             <li>
                 <a class="clear" href="{{ site.url }}{{ site.baseurl }}/{{ item[1].icon }}">
-                    <i class="fa fa-{{ item[1].icon }}" aria-hidden="true"></i>
+                    <i class="fa fa-{{ item[1].icon }}" aria-hidden="true"></i> <span>{{ item[1].icon }}</span>
                 </a>
             </li>
           {% endif %}
