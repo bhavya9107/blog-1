@@ -10,7 +10,7 @@ theme_settings:
   # Meta
   title: Codin' Geek # blog's title
   avatar: assets/img/icon.png
-  favicon: 
+  favicon: assets/img/icon.png
   gravatar: # Email MD5 hash
 
   # Header and footer text
