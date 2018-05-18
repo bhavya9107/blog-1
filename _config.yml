@@ -71,7 +71,7 @@ theme_settings:
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
-  google_fonts: "Pacifico|Roboto:400,400i"
+  google_fonts: "Roboto|Roboto+Mono"
 
   # Post navigation
   post_navigation: true
