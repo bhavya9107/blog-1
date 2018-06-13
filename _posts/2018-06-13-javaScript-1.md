@@ -5,7 +5,7 @@ feature-img: "assets/img/javaScript.jpg"
 thumbnail: "assets/img/javaScript.jpg"
 tags: [blog, JavaScript, Programming, Fire Start, JFS]
 ---
-Hi 👋 ! <br>
+Hi 👋 ! Welcome to JFS <br>
 So from today I would be starting a tutorial series on JavaScript.
 This Tutorial is focused on giving a quick start to **aspiring Javascript Developers**
 so that they can leave away their hesitation or break the dead lock and start learning now.
