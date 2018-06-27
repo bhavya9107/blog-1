@@ -7,7 +7,7 @@ tags: [blog, JavaScript, Programming, Fire Start, JFS]
 ---
 Hi 👋 ! Welcome to JFS <br>
 So from today I would be starting a tutorial series on JavaScript.
-This Tutorial is focused on giving a quick start to **aspiring Javascript Developers**
+This Tutorial is focused on giving a quick start to **aspiring JavaScript Developers**
 so that they can leave away their hesitation or break the dead lock and start learning now.
 
 JavaScript has eventually evolved into being a language rather than just a scripting tool. So Focus of the Tutorial would be on the giving reader the fundamentals of programming while having fun on web 😎✌!!
@@ -28,7 +28,7 @@ JavaScript has eventually evolved into being a language rather than just a scrip
 >   3.3 Objects ( JSON ) <br>
 
 4. **Problems Set 1** <br>
->   4.1 Questions Based on Disscussion So far <br>
+>   4.1 Questions Based on Discussions So far <br>
 >   4.2 Solutions<br>
 
 5. **Going Ahead with JavaScript 1** <br>
@@ -42,7 +42,7 @@ JavaScript has eventually evolved into being a language rather than just a scrip
 >   6.3 Intro to JavaScript *Libraries* <br>
 
 7. **Problems Set 2** <br>
->   7.1 Questions Based on Disscussion So far <br>
+>   7.1 Questions Based on Discussions So far <br>
 >   7.2 Solutions<br>
 
 8. **Being Ahead with JavaScript 1** <br>
@@ -56,10 +56,10 @@ JavaScript has eventually evolved into being a language rather than just a scrip
 >   10.1 JavaScript Promises <br>
 >   10.2 AJAX and JSON parsing
 
-## Requirements
+## Expectations from readers
 The reader is expected to have following skills
 - Determined reader
-- Interest in undrstanding working of Web
+- Interest in understanding working of Web
 - May or may not have programming experience
 - May have fear for starting programming.
 
